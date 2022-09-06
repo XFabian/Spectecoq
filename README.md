@@ -1,6 +1,6 @@
 This directory contains the executable semantics accompanying the [paper](https://arxiv.org/abs/2209.01179).
 
-
+It does not contain any proofs.
 
 ## Installing the Dependencies
 
@@ -21,7 +21,7 @@ and then
 make -f CoqMakefile
 ```
 
-To generate the HTML output of examples.v use [alectryon](https://github.com/cpitclaudel/alectryon) with the follwong command:
+To generate the HTML output of examples.v use [alectryon](https://github.com/cpitclaudel/alectryon) with the follwing command:
 ```
 alectryon theories/examples.v -R theories/ spec
 ```
