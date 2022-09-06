@@ -102,7 +102,7 @@ Definition memory := total_map val val.
 
 (* Syntax of the language *)
 
-(* addition etc are missing as exp, also bottom value*)
+
 Inductive label : Type :=
 | Loc : val -> label.
 
